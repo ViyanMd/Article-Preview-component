@@ -138,7 +138,7 @@ button {
 }
 
 button:hover {
-  background-image: url("../images/Group\ 3.png");
+  background-image: url("../images/icon-share-dark.svg");
 }
 
 .media-links.open {
