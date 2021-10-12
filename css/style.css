@@ -137,10 +137,6 @@ button {
   background-position: center;
 }
 
-button:hover {
-  background-image: url("../images/icon-share-dark.svg");
-}
-
 .media-links.open {
   position: absolute;
   display: flex;
