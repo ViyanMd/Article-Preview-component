@@ -1,11 +1,11 @@
-const openButton = document.querySelector(".share-open");
-const closeButton = document.querySelector(".share-close");
-const mediaLinks = document.querySelector(".media-links");
 
-closeButton.addEventListener("click", () => {
-  mediaLinks.classList.toggle("open");
-});
+const shareClose = document.getElementById("share-close");
+const shareOpen = document.getElementById("share-open");
+const menu = document.getElementById("media-container");
 
-openButton.addEventListener("click", () => {
-  mediaLinks.classList.remove('open');
+shareClose.addEventListener('click', () => {
+  menu.classList.toggle('visible');
 });
+shareOpen.addEventListener('click', () => {
+  menu.classList.remove('visible');
+})
